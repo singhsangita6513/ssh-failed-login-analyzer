@@ -41,6 +41,15 @@ Results saved to results.csv
 
 In the sample, 203.0.113.10 tried to log in as root many times in a few seconds, which looks like a brute-force attempt. It is the only IP flagged in the CSV.
 
+  ## Problems I ran into
+
+My first run showed 0 failed logins. I checked the input with `wc -l` and `grep -c`
+and found the sample log file was empty because I hadn't saved it. After fixing that,
+the script found 13 failures, which matched my count by hand.
+
+<img width="1388" height="857" alt="Image" src="https://github.com/user-attachments/assets/44fae058-9c87-488e-85e9-53f826f70094" />
+
+
 ## What I learned
 
 - Using a regular expression to find failed login lines and pull out the username and IP
