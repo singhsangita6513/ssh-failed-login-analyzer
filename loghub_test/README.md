@@ -14,8 +14,7 @@ curl -L -o real_logs/OpenSSH_2k.log https://raw.githubusercontent.com/logpai/log
 ```
 
 Then I changed `LOG_FILE` in `log_analyzer.py` to `real_logs/OpenSSH_2k.log`
-and ran `python3 log_analyzer.py`. The `.gitignore` blocks `.log` files, so the
-raw log could not be committed by accident.
+and ran `python3 log_analyzer.py`. 
 
 <img width="1299" height="810" alt="Screenshot 2026-11-12 at 4 27 10 PM" src="https://github.com/user-attachments/assets/056ed44f-502e-4816-bc26-af5dee800378" />
 
