@@ -3,7 +3,7 @@
 Initially I experimented with fake logs, although in this part I used separate Loghub test which has public research dataset that includes real IP addresses.
 
 ## Dataset
-I used the OpenSSH sample (2,000 lines from a lab server) from Loghub i.e a public research collection of system logs. I haven't added the raw log file I this repository. The results file in the folder comes from that dates and includes its IP addresses. 
+I used the OpenSSH sample (2,000 lines from a lab server) from Loghub i.e a public research collection of system logs. I haven't added the raw log file I this repository. The results file in the folder comes from that dataset and includes its IP addresses. 
 
 ## How I ran it
 From the main project folder:
