@@ -4,6 +4,10 @@ A Python script that reads a Linux SSH log (auth.log format) and counts failed l
 
  It only uses a fake sample log I made, with example IP addresses (192.0.2.x, 198.51.100.x, 203.0.113.x). No real logs or real data are included.
 
+**Note** Test on real SSH logs (Loghub):
+I also tested the script on a public dataset of real SSH logs from Loghub.
+The notes and results are in the [loghub_test] folder.
+
 ## How to run
 
 You need Python 3. No extra packages are needed.
