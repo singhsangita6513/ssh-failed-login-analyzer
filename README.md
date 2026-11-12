@@ -63,3 +63,4 @@ the script found 13 failures, which matched my count by hand.
 
 - Only tested on the sample log, not on a real server
 - Only counts "Failed password" lines
+- It does not watch a log or send alerts
