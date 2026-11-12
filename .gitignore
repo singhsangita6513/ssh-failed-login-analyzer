@@ -1,0 +1,10 @@
+# macOS will create this hidden file in folders (not part of the project)
+.DS_Store
+
+# Python creates cache files automatically
+__pycache__/
+
+# Safety net: never commit real log files...
+*.log
+# fake sample log with initial brute force attack, different user name that dont exist, few mistypes before successful login. 
+!sample_logs/sample_auth.log

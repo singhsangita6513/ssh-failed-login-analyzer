@@ -1,0 +1,25 @@
+Nov 10 09:00:01 demo-server sshd[1101]: Accepted publickey for alice from 192.0.2.5 port 50122 ssh2
+Nov 10 09:00:01 demo-server sshd[1101]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Nov 10 09:15:01 demo-server sshd[1201]: Failed password for root from 203.0.113.10 port 51122 ssh2
+Nov 10 09:15:04 demo-server sshd[1201]: Failed password for root from 203.0.113.10 port 51122 ssh2
+Nov 10 09:15:07 demo-server sshd[1201]: Failed password for root from 203.0.113.10 port 51122 ssh2
+Nov 10 09:15:10 demo-server sshd[1203]: Failed password for root from 203.0.113.10 port 51130 ssh2
+Nov 10 09:15:13 demo-server sshd[1203]: Failed password for root from 203.0.113.10 port 51130 ssh2
+Nov 10 09:15:16 demo-server sshd[1203]: Failed password for root from 203.0.113.10 port 51130 ssh2
+Nov 10 09:15:19 demo-server sshd[1205]: Invalid user admin from 203.0.113.10 port 51140
+Nov 10 09:15:21 demo-server sshd[1205]: Failed password for invalid user admin from 203.0.113.10 port 51140 ssh2
+Nov 10 09:15:25 demo-server sshd[1205]: Connection closed by authenticating user root 203.0.113.10 port 51140 [preauth]
+Nov 10 09:30:02 demo-server sshd[1301]: Invalid user test from 198.51.100.23 port 40210
+Nov 10 09:30:04 demo-server sshd[1301]: Failed password for invalid user test from 198.51.100.23 port 40210 ssh2
+Nov 10 09:30:08 demo-server sshd[1302]: Invalid user oracle from 198.51.100.23 port 40216
+Nov 10 09:30:10 demo-server sshd[1302]: Failed password for invalid user oracle from 198.51.100.23 port 40216 ssh2
+Nov 10 09:30:14 demo-server sshd[1303]: Invalid user admin from 198.51.100.23 port 40222
+Nov 10 09:30:16 demo-server sshd[1303]: Failed password for invalid user admin from 198.51.100.23 port 40222 ssh2
+Nov 10 09:30:20 demo-server sshd[1304]: Invalid user ubuntu from 198.51.100.23 port 40230
+Nov 10 09:30:22 demo-server sshd[1304]: Failed password for invalid user ubuntu from 198.51.100.23 port 40230 ssh2
+Nov 10 10:05:41 demo-server sshd[1401]: Failed password for bob from 192.0.2.77 port 52010 ssh2
+Nov 10 10:05:55 demo-server sshd[1401]: Accepted password for bob from 192.0.2.77 port 52010 ssh2
+Nov 10 10:05:55 demo-server sshd[1401]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Nov 10 11:20:30 demo-server sshd[1501]: Failed password for alice from 192.0.2.5 port 50300 ssh2
+Nov 10 11:20:38 demo-server sshd[1501]: Accepted password for alice from 192.0.2.5 port 50300 ssh2
+Nov 10 12:00:00 demo-server sshd[1601]: Received disconnect from 192.0.2.77 port 52010:11: disconnected by user
