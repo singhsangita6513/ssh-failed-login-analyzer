@@ -53,13 +53,9 @@ the script found 13 failures, which matched my count by hand.
 ## What I learned
 
 - Using a regular expression to find failed login lines and pull out the username and IP
-- Counting with Counter from the collections module
-- Writing a CSV file with the csv module
 - Reading Python error messages to fix my own bugs
-- Using git to save my work in commits
 
 ## Limitations
 
 - Only tested on the sample log, not on a real server
-- The log file and the threshold are set in the code
 - Only counts "Failed password" lines
